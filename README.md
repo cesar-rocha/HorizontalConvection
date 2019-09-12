@@ -4,8 +4,8 @@ Materials for JFM paper "The heat flux of horizontal convection: definition of t
 [Cesar B Rocha](http://www.cbrocha.com) ([WHOI](http://whoi.edu)), Thomas Bossy
 ([ENS de Lyon](http://www.ens-lyon.fr)), [Navid
 Constantinou](http://www.navidconstantinou.com)
-([ANU](https://www.anu.edu.au)),[Stefan Llewellyn-Smith](https://sites.google.com/a/eng.ucsd.edu/sgls/)
-([MAE/UCSD](http://maeweb.ucsd.edu), [SIO](scripps.ucsd.edu)),[William R. Young](http://pordlabs.ucsd.edu/wryoung/) ([SIO](scripps.ucsd.edu)).
+([ANU](https://www.anu.edu.au)), [Stefan Llewellyn-Smith](https://sites.google.com/a/eng.ucsd.edu/sgls/)
+([MAE/UCSD](http://maeweb.ucsd.edu), [SIO](scripps.ucsd.edu)), [William R. Young](http://pordlabs.ucsd.edu/wryoung/) ([SIO](scripps.ucsd.edu)).
 
 ## Dedalus
 Direct Numerical Simulations of Horizontal Convection are performed with
