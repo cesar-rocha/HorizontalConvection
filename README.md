@@ -1,8 +1,7 @@
 # HorizontalConvection
 Materials for JFM paper "The heat flux of horizontal convection: definition of the Nusselt number," in preparation.
 
-[Cesar B Rocha](http://www.cbrocha.com) ([WHOI](http://whoi.edu))
-
+[Cesar B Rocha](http://www.cbrocha.com) ([WHOI](http://whoi.edu))\n
 Thomas Bossy ([ENS de Lyon](http://www.ens-lyon.fr))
 
 [Navid Constantinou](http://www.navidconstantinou.com) ([ANU](https://www.anu.edu.au))
