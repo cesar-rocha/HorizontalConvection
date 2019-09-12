@@ -34,8 +34,8 @@ are:
 - numpy
 - scipy >= 0.13.0
 
-## Contact
-If you run in any trouble in running Dedalus or our analysis scripts, please
+## Getting help
+If you run into any trouble when running Dedalus or our analysis scripts, please
 contact us:
 
 - Cesar Rocha ([crocha@whoi.edu](mailto:crocha@whoi.edu))
