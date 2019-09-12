@@ -20,9 +20,9 @@ plt.close("all")
 
 # Load data
 data2d_nostress = np.load('../Data/NuAndKE_2D_nostress_6p4e10.npz')
-data2d_noslip = np.load('NuAndKE_2D_noslip_6p4e10.npz')
-data3d_nostress = np.load('NuAndKE_3D_nostress_6p4e10.npz')
-data3d_noslip = np.load('NuAndKE_3D_noslip_6p4e10.npz')
+data2d_noslip = np.load('../Data/NuAndKE_2D_noslip_6p4e10.npz')
+data3d_nostress = np.load('../Data/NuAndKE_3D_nostress_6p4e10.npz')
+data3d_noslip = np.load('../Data/NuAndKE_3D_noslip_6p4e10.npz')
 
 # Plotting
 fig = plt.figure(figsize=(10,6))

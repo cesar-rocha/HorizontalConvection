@@ -84,5 +84,5 @@ plt.text(1601,.1475,'(b)')
 plt.text(3.2e11,.14,r'free-slip',color='b')
 plt.text(3.2e11,.1275,r'no-slip',color='r')
 
-plt.savefig("../Data/Figure7.png",dpi=800)
-plt.savefig("../Data/Figure7.eps")
+plt.savefig("../Figz/Figure7.png",dpi=800)
+plt.savefig("../Figz/Figure7.eps")
