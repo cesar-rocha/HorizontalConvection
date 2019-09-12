@@ -50,8 +50,7 @@ plt.text(.125,35.5,'2D')
 plt.text(.125,30.75,'3D')
 plt.text(.125,26.7,'2D')
 
-plt.savefig("Figure5.png", bbox_inches = 'tight',
+plt.savefig("../Figz/Figure5.png", bbox_inches = 'tight',
             pad_inches = 0)
-
-plt.savefig("Figure5.eps", bbox_inches = 'tight',
+plt.savefig("../Figz/Figure5.eps", bbox_inches = 'tight',
             pad_inches = 0)
