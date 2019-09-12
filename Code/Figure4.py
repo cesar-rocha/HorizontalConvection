@@ -1,3 +1,18 @@
+"""
+    Script for 'The heat flux of horizontal convection:
+    definition of the Nusselt number and scaling second paper,'
+    by C.B. Rocha, T. Bossy, N.C. Constantinou, S.G. Llewellyn Smith
+    & W.R. Young, submitted to JFM.
+
+    Figure4.py: time series of kinetic energy, Nusselt number, and
+                bottom buoyancy for 2D solutions with Ra=6.4e9.
+
+    Cesar Rocha et al.
+    WHOI, Spring 2019
+
+"""
+
+
 import matplotlib.pyplot as plt
 import numpy as np
 import h5py
