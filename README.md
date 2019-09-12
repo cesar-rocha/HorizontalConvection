@@ -6,6 +6,7 @@ Materials for JFM paper "The heat flux of horizontal convection: definition of t
 Thomas Bossy ([ENS de Lyon](http://www.ens-lyon.fr))
 
 [Navid Constantinou](http://www.navidconstantinou.com) ([ANU](https://www.anu.edu.au))
+
 [Stefan Llewellyn-Smith](https://sites.google.com/a/eng.ucsd.edu/sgls/)
 ([MAE/UCSD](http://maeweb.ucsd.edu), [SIO](scripps.ucsd.edu))
 
