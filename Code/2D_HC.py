@@ -14,9 +14,11 @@
     horizontal scales, thus the numerical Rayleigh number in this script is 
     8 times smaller than in the paper.
 
-    To run and merge snapshots using 24 threadsd, use:
+    To run using 24 threads, use:
     $ mpiexec -n 24 python3 HorizontalConvection.py
-    $ mpiexec -n 24 python3 merge.py snapshots
+
+    Snapshots must be merged prior to analysis:
+    $ python3 merge.py snapshots/
 
     Cesar Rocha et al.
     WHOI, Summer 2018
