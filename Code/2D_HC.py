@@ -4,7 +4,7 @@
     by C.B. Rocha, T. Bossy, N.C. Constantinou, S.G. Llewellyn Smith
     & W.R. Young, submitted to JFM.
 
-    This is a Dedalus script for 2D horizontal convection calculations. 
+    This is a Dedalus script for no-slip 2D horizontal convection calculations. 
     It uses a Fourier basis in the x direction with periodic boundary
     conditions and Chebyshev basis in the z direction.
 
@@ -15,7 +15,7 @@
     8 times smaller than in the paper.
 
     To run using 24 threads, use:
-    $ mpiexec -n 24 python3 HorizontalConvection.py
+    $ mpiexec -n 24 python3 2D_HC.py
 
     Snapshots must be merged prior to analysis:
     $ python3 merge.py snapshots/
