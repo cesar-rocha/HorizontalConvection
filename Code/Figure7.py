@@ -5,7 +5,7 @@
     by C.B. Rocha, T. Bossy, N.C. Constantinou, S.G. Llewellyn Smith 
     & W.R. Young, submitted to JFM.
 
-    Figure7.py: log vs. log Ra-Nu diagram.
+    Figure7.py: semilog Ra^p compensated Ra-Nu diagrams, where p=[1/5,1/4].
 
     Cesar Rocha et al.
     WHOI, Spring 2019
