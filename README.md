@@ -25,7 +25,7 @@ with pip or conda. We ran suite 77 simulations plus 15 test simulations across d
 - ANU supercomputer (up to 1000 cores)
 
 ## Analysis
-The analysis of the results are performed in python3. The basic requirements
+The analysis of the results are performed in python. The basic requirements
 are:
  
 - h5py >= 2.6.0
