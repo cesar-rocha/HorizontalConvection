@@ -26,8 +26,8 @@ plt.rcParams['contour.negative_linestyle'] = 'solid'
 plt.close('all')
 
 # Load snapshots
-snaps2D = h5py.File("Data/snapshot-3D-noslip-Ra3p2e11.h5")
-                          
+snaps2D = h5py.File("../Data/snapshot-3D-noslip-Ra3p2e11.h5")
+
 wsnap2D = snaps2D['w'][:].mean(axis=1)
 usnap2D = snaps2D['u'][:].mean(axis=1)
 b2D = snaps2D['b'][:].mean(axis=1)
@@ -78,7 +78,6 @@ psi2D -= psi2D.mean()
 psi2D = psi2D/psi2D.max()
 
 # Plotting
-
 fig = plt.figure(figsize=(10.5,4.85))
 gs = gridspec.GridSpec(2, 2, height_ratios=[1, 2.5])
 cp = np.linspace(-1,1,30)
@@ -135,5 +134,5 @@ plt.yticks([0,0.2,.4,.6,.8],['0.00','0.20','0.40','0.60','0.80'])
 cbar_ax = fig.add_axes([.93, .225, 0.02, 0.5])
 fig.colorbar(im_b, cax=cbar_ax,ticks=[-1,-0.5,0,.5,1.],label=r'$b/b_*$')
 
-plt.savefig("Figz/Figure2.png",dpi=800, bbox_inches = 'tight',pad_inches = 0)
-plt.savefig("Figz/Figure2.eps", bbox_inches = 'tight',pad_inches = 0)
+plt.savefig("../Figz/Figure2.png",dpi=800, bbox_inches = 'tight',pad_inches = 0)
+plt.savefig("../Figz/Figure2.eps", bbox_inches = 'tight',pad_inches = 0)
