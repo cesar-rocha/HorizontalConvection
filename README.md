@@ -17,7 +17,7 @@ Direct Numerical Simulations of Horizontal Convection are performed with
 [Dedalus](http://dedalus-project.org), a spectral framework in python. Dedalus
 can be
 [installed](https://dedalus-project.readthedocs.io/en/latest/installation.html#installing-the-dedalus-package)
-with pip or conda. We ran suite 77 simulations plus 15 test simulations across
+with pip or conda. We ran suite 77 simulations plus 20+ test simulations across
 four different systems: 
 
 - MacPro laptop (8 cores) 
