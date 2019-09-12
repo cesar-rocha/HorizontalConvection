@@ -1,7 +1,7 @@
 # HorizontalConvection
 Materials for JFM paper "The heat flux of horizontal convection: definition of the Nusselt number," in preparation.
 
-[Cesar B Rocha](www.cbrocha.com) ([WHOI](whoi.edu))
+[Cesar B Rocha](http://www.cbrocha.com) ([WHOI](http://whoi.edu))
 
 Thomas Bossy ([ENS de Lyon](http://www.ens-lyon.fr))
 
@@ -18,7 +18,11 @@ Direct Numerical Simulations of Horizontal Convection are performed with
 [Dedalus](http://dedalus-project.org), a spectral framework in python. Dedalus
 can be
 [installed](https://dedalus-project.readthedocs.io/en/latest/installation.html#installing-the-dedalus-package)
-with pip or conda. We ran suite 77 simulations across different three different systems: a MacPro laptop (8 cores), a Linux workstation (24 cores), and a supercomputer at the Australian National University (up to 1000 cores).
+with pip or conda. We ran suite 77 simulations plus 15 test simulations across different three different systems: 
+
+- MacPro laptop (8 cores) 
+- Linux workstation (24 cores)
+- ANU supercomputer (up to 1000 cores)
 
 ## Analysis
 The analysis of the results are performed in python3. The basic requirements
