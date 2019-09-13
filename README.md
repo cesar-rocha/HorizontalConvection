@@ -30,7 +30,7 @@ are:
 - scipy >= 0.13.0
 
 ## Getting help
-If you run into any trouble when running Dedalus or our analysis scripts, please
+If you run into any trouble when working with Dedalus or our analysis scripts, please
 contact us:
 
 - Cesar Rocha ([crocha@whoi.edu](mailto:crocha@whoi.edu))
