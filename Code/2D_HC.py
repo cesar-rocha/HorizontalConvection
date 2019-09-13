@@ -10,9 +10,8 @@
 
     The equations are scaled in units of Archimedean time scale 
     Tb = (h/bmax)^1/2, where bmax is the maximum value of surface buoyancy.
-    Note that the paper used Lx--the horizontal domain--instead of h for its 
-    horizontal scales, thus the numerical Rayleigh number in this script is 
-    8 times smaller than in the paper.
+    Note that the paper used Lx--the horizontal domain--instead of h for its    length scale, thus the numerical Rayleigh number in this script is 
+    4^3=64 times smaller than in the paper.
 
     To run using 24 threads, use:
     $ mpiexec -n 24 python3 2D_HC.py
