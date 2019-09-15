@@ -1,11 +1,11 @@
 """
     Script for 'The heat flux of horizontal convection:
-    definition of the Nusselt number and scaling second paper,'
+    definition of the Nusselt number,'
     by C.B. Rocha, T. Bossy, N.C. Constantinou, S.G. Llewellyn Smith
     & W.R. Young, submitted to JFM.
 
-    This is a Dedalus script for no-slip 3D horizontal convection calculations.
-    It uses a Fourier basis in the x direction with periodic boundary
+    This is a Dedalus script for 3D no-slip horizontal convection calculations.
+    It uses a Fourier bases in the x and y directions with periodic boundary
     conditions and Chebyshev basis in the z direction.
 
     The equations are scaled in units of Archimedean time scale
