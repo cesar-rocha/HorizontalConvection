@@ -4,7 +4,7 @@
     by C.B. Rocha, T. Bossy, N.C. Constantinou, S.G. Llewellyn Smith
     & W.R. Young, submitted to JFM.
 
-    This is a Dedalus script for no-slip 2D horizontal convection calculations. 
+    This is a Dedalus script for 2D no-slip horizontal convection calculations. 
     It uses a Fourier basis in the x direction with periodic boundary
     conditions and Chebyshev basis in the z direction.
 
