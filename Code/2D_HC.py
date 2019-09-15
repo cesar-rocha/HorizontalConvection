@@ -1,6 +1,6 @@
 """
     Script for 'The heat flux of horizontal convection:
-    definition of the Nusselt number and scaling second paper,'
+    definition of the Nusselt number,'
     by C.B. Rocha, T. Bossy, N.C. Constantinou, S.G. Llewellyn Smith
     & W.R. Young, submitted to JFM.
 
