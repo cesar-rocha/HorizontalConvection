@@ -17,7 +17,7 @@ import numpy as np
 import h5py
 
 # Load data
-data = np.load("../Data/BuoyancyAndFlux_Ra6p4e10.npz")
+data = np.load("../Data/BuoyancyAndFlux_Ra6p4e10_noslip.npz")
 
 # Plotting
 fig = plt.figure(figsize=(12,4))
@@ -25,7 +25,7 @@ fig = plt.figure(figsize=(12,4))
 ax = fig.add_subplot(121)
 plt.plot(data['x'],data['F'],'b')
 plt.xlabel(r"$x/h$")
-plt.text(-.1,78,"(a)")
+plt.text(-.1,54,"(a)")
 
 ax2 = ax.twinx()
 ax2.plot(data['x'],data['bs'],'k--')
@@ -48,7 +48,7 @@ plt.xlabel(r"$x/h$")
 plt.ylabel(r"$h\, J/ \kappa b_*$")
 plt.title(r'$J(x)$')
 
-plt.text(-.1,286,"(b)")
+plt.text(-.1,210,"(b)")
 
 plt.savefig("../Figz/Figure3.png", bbox_inches = 'tight',
     pad_inches = 0)
