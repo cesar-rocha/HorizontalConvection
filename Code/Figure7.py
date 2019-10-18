@@ -76,8 +76,12 @@ plt.ylim(0.025,.15)
 
 plt.plot([1e3,5e13],[0.065]*2,linewidth=1,color='0.5')
 plt.text(6e13,0.067,'0.065')
+
 plt.plot([1e3,5e13],[0.049]*2,linewidth=1,color='0.5')
 plt.text(6e13,0.05,'0.049')
+
+plt.plot([1e3,5e13],[0.0879]*2,linewidth=1,color='0.5')
+plt.text(6e13,0.0875,'0.088')
 
 plt.text(1601,.1475,'(b)')
 
